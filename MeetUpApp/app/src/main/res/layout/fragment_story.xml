@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:card_view="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_margin="12dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    >
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.android.volley.toolbox.NetworkImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/picture_image_view"
+        android:background="@drawable/loader" />
+    <TextView
+        android:text="GroupName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/title_text_view" />
+    <TextView
+        android:text="City, State"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityandstate_text_view" />
+    <TextView
+        android:text="Members"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/members_text_view" />
+    <TextView
+        android:text="Desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc_text_view" />
+
+</LinearLayout>
+
+</LinearLayout>
